@@ -1,6 +1,6 @@
-# 📘 Gestion des Absences – Application Java Swing
+# Gestion des Absences – Application Java Swing
 
-## 🎯 Objectif du projet
+## Objectif du projet
 Ce projet a pour objectif de développer une application de gestion des absences des employés, utilisant **Java (Swing)** pour l’interface graphique, **MySQL** pour la base de données, et une architecture organisée en couches (UI, DAO, Services).
 
 L'application permet de gérer :
@@ -11,7 +11,7 @@ L'application permet de gérer :
 
 ---
 
-## 🧩 Fonctionnalités du projet
+## Fonctionnalités du projet
 
 ### ✔ Gestion des employés  
 - Ajouter un employé  
@@ -44,11 +44,11 @@ Structure :
 
 ---
 
-## 🗂️ Modèle Conceptuel de Données (MCD)
+## Modèle Conceptuel de Données (MCD)
  <img width="570" height="356" alt="Capture d’écran du 2025-12-02 23-27-58" src="https://github.com/user-attachments/assets/d7f0a46f-ae7a-41e9-851d-9cae79473b38" />
 ---
 
-## 🏛️ Architecture du projet
+## Architecture du projet
 ```
 AbsenceEntreprise/
 ├── Source Packages/
@@ -62,8 +62,6 @@ AbsenceEntreprise/
 ```
 
 ---
-## 🎥 Vidéo de démonstration
-<video controls width="640">
-  <source src="https://github.com/user-attachments/assets/b8077805-d9e4-4f28-b434-082049eb929d" type="video/mp4">
-</video>
+## Vidéo de démonstration
+
 https://github.com/user-attachments/assets/b8077805-d9e4-4f28-b434-082049eb929d
