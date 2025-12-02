@@ -62,3 +62,7 @@ AbsenceEntreprise/
 
 ---
 ## 🎥 Vidéo de démonstration
+<video controls width="640">
+  <source src="https://github.com/user-attachments/assets/b8077805-d9e4-4f28-b434-082049eb929d" type="video/mp4">
+</video>
+https://github.com/user-attachments/assets/b8077805-d9e4-4f28-b434-082049eb929d
