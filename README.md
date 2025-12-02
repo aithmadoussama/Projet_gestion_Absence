@@ -33,7 +33,8 @@ L'application permet de gérer :
 - Liaison automatique employé ↔ type d’absence  
 
 ### ✔ Statistiques  
-- Graphique (barres) du nombre d’absences par département (via **JFreeChart**)  
+- Graphique (barres) du nombre d’absences par département (via **JFreeChart**)
+- Graphique (barres) du nombre d’absences pour chaque employe (via **JFreeChart**)
 
 ### ✔ Base de données MySQL  
 Structure :
