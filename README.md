@@ -1,4 +1,4 @@
-# Gestion des Absences – Application Java Swing
+# Gestion des Absences d'une entreprise – Application Java Swing
 ---
 
 ## Objectif du projet
@@ -40,10 +40,34 @@ L'application permet de gérer :
 - Graphique (disque) du nombre d'employes par département (via **JFreeChart**)
   
 ### ✔ Base de données MySQL  
+```
+CREATE TABLE employe (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    departement VARCHAR(100),
+    poste VARCHAR(100)
+);
 
+CREATE TABLE typeabsence (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    libelle VARCHAR(100) NOT NULL,
+    justification TEXT
+);
+
+CREATE TABLE absence (
+    date_debut DATE NOT NULL,
+    date_fin DATE NOT NULL,
+    id_employe INT NOT NULL,
+    id_typeabsence INT NOT NULL,
+    PRIMARY KEY (id_employe, id_typeabsence, date_debut),
+    FOREIGN KEY (id_employe) REFERENCES employe(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (id_typeabsence) REFERENCES typeabsence(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+```
 ---
 
 ## Modèle Conceptuel de Données (MCD)
+<img width="619" height="282" alt="Capture d’écran du 2025-12-05 23-10-22" src="https://github.com/user-attachments/assets/8d32a7b1-9838-4e1b-8459-2317fb32b6ab" />
 
 
 ---
@@ -55,3 +79,6 @@ L'application permet de gérer :
 
 ## Vidéo de démonstration
 https://github.com/user-attachments/assets/b8077805-d9e4-4f28-b434-082049eb929d
+
+--- 
+*Rédigé par Ait Hmad Oussama*
